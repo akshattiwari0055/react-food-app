@@ -7,7 +7,7 @@ import { food_items } from '../food';
 import { useSelector } from 'react-redux';
 
 function Nav() {
-  let { input, setInput, foodData, setFoodData,showCart, setShowCart} = useContext(dataContext)
+  let { input, setInput, setFoodData, setShowCart} = useContext(dataContext)
 
   useEffect(() => {
     let newList = food_items.filter((item) => {

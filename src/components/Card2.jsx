@@ -1,5 +1,4 @@
 import React from 'react'
-import image1 from "../assets/image1.avif"
 import { IoTrashBin } from "react-icons/io5";
 import { useDispatch } from 'react-redux';
 import { DecreamentQty, IncreamentQty, RemoveItem } from '../redux/castSlice';
